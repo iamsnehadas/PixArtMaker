@@ -9,20 +9,25 @@
 <body>
 <h1>Pixel Art Maker</h1>
 <p><br>
-<label for="rows">Enter the number of rows :</label>
-<input type="number" id="rows">
+<!-- Create input elements for the user to enter the number of rows and columns -->
+<label for="rows">Enter the number of rows as required:</label>
+<input type="number" id="rows" min="1" max="15">
 <br>
-<label for="cols">Enter the number of columns :</label>
-<input type="number" id="cols">
+<label for="cols">Enter the number of columns as required:</label>
+<input type="number" id="cols" min="1" max="15">
 <br>
+<br>
+<!-- Create a button element with id create-grid to allow the user to create the grid -->
 <button id="create-grid">Create Grid</button>
 <p>
+<!-- Create a table element with id grid to hold the grid of squares -->
 <table id="grid">
+  <!-- The rows and columns will be created here -->
 </table>
 <br>
 Please choose the color according to your choice from the color-picker below: <p>
 <input type="color" id="color-picker">
-<button id="clear">Clear</button>
+<button id="clear">Clear</button>  
 <script src="script.js"></script>
 </body>
 </html>
