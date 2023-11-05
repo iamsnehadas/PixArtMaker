@@ -4,6 +4,66 @@ body{
   display: grid;
   place-items: center;
   text-align: center; 
+  background-image: url(tyuiuuytt.jfif); 
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 2px #ffffff, 0 0 2px #fffbfb, 0 0 2px #ffffff, 0 0 2px #ffffff;
+}
+table {
+  border-collapse: collapse;
+}
+
+td {
+  place-content: center;
+  width: 20px;
+  height: 20px;
+  border: 2.5px solid black;/*rgb(16, 16, 16);*/
+  background-color: white;
+}
+
+input[type="number"] {
+  width:350px;
+  font-weight: bold;
+  align-items: center;
+  border: 2.5px solid rgb(14, 14, 14);
+}
+
+input[type="color"] {
+  width: 50px;
+  height: 25px;
+}
+#rows{
+  border: 2.5px solid white;
+}
+#cols{
+  border: 2.5px solid white;
+}
+button {
+  width: 90px;
+  height: 35px;  
+  border: 2.5px solid rgb(255, 255, 255);
+}
+#create-grid{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+}
+#clear{  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  width: 75px;
+  height: 40px;
+  border: 2.5px solirgb(9, 9, 9)ke;/*rgb(8, 5, 18)*/
+}
+#color-picker {
+  width: 75px;
+  height: 40px;
+  border: 2.5px solid rgb(22, 22, 22);
+}
+/*body{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid;
+  place-items: center;
+  text-align: center; 
   background-image: url(spl.jpg); 
 }
 table {
@@ -56,3 +116,4 @@ button {
   height: 40px;
   border: 2.5px solid rgb(8, 5, 18);
 }
+*/
